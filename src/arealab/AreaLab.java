@@ -28,6 +28,7 @@ public class AreaLab {
         surfaceArea += circle();
         surfaceArea += circle ();
         surfaceArea += circle();
+        surfaceArea += parrallelogram();
         surfaceArea += square();
         System.out.println ("");
         System.out.println ("Now the data for the empty space inside the square.");
