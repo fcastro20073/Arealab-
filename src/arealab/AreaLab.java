@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class AreaLab {
 
-    static final double PI = 3.14;
+    
     
     private static Scanner in = new Scanner(System.in);
     /**
@@ -54,7 +54,7 @@ public class AreaLab {
          System.out.println ("Provide radius: ");
          int radius = in.nextInt();
          System.out.println ("The radius of the circle is: " + radius);
-         double circleArea = (int)( Math.pow(radius, 2)* PI); 
+         double circleArea = (int)( Math.pow(radius, 2)* Math.PI); 
          System.out.println ("The area of the circle is "+ circleArea);
          return (int) circleArea; 
          
